@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mc.shane.poker.service.impl.ApacheXLSXParserSpec" tests="1" skipped="0" failures="1" errors="0" timestamp="2014-12-12T17:53:50" hostname="jamesmcshane-PC" time="1.982">
+  <properties/>
+  <testcase name="this is a test" classname="mc.shane.poker.service.impl.ApacheXLSXParserSpec" time="1.982">
+    <failure message="org.spockframework.mock.CannotCreateMockException: Cannot create mock for class org.apache.poi.xssf.usermodel.XSSFRow. To solve this problem, put Objenesis 1.2 or higher on the class path (recommended), or supply constructor arguments (e.g. 'constructorArgs: [42]') that allow to construct an object of the mocked type." type="org.spockframework.mock.CannotCreateMockException">org.spockframework.mock.CannotCreateMockException: Cannot create mock for class org.apache.poi.xssf.usermodel.XSSFRow. To solve this problem, put Objenesis 1.2 or higher on the class path (recommended), or supply constructor arguments (e.g. 'constructorArgs: [42]') that allow to construct an object of the mocked type.
+	at org.spockframework.mock.runtime.MockInstantiator.instantiate(MockInstantiator.java:38)
+	at org.spockframework.mock.runtime.ProxyBasedMockFactory$CglibMockFactory.createMock(ProxyBasedMockFactory.java:92)
+	at org.spockframework.mock.runtime.ProxyBasedMockFactory.create(ProxyBasedMockFactory.java:49)
+	at org.spockframework.mock.runtime.JavaMockFactory.create(JavaMockFactory.java:51)
+	at org.spockframework.mock.runtime.CompositeMockFactory.create(CompositeMockFactory.java:44)
+	at org.spockframework.lang.SpecInternals.createMock(SpecInternals.java:47)
+	at org.spockframework.lang.SpecInternals.createMockImpl(SpecInternals.java:282)
+	at org.spockframework.lang.SpecInternals.MockImpl(SpecInternals.java:83)
+	at mc.shane.poker.service.impl.ApacheXLSXParserSpec.$spock_initializeFields(ApacheXLSXParserSpec.groovy:14)
+Caused by: groovy.lang.GroovyRuntimeException: Could not find matching constructor for: org.apache.poi.xssf.usermodel.XSSFRow$$EnhancerByCGLIB$$e151dd96()
+	at org.spockframework.mock.runtime.MockInstantiator.instantiate(MockInstantiator.java:33)
+	... 8 more
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
